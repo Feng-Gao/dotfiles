@@ -581,6 +581,11 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 # defaults write com.twitter.twitter-mac HideInBackground -bool true
 
 ###############################################################################
+# set up my latex                                                             #
+###############################################################################
+sudo cp ./latex/lstpatch.sty /usr/local/texlive/2013/texmf-dist/tex/latex/listings
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
